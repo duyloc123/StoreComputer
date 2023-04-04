@@ -1,0 +1,100 @@
+﻿@model IEnumerable<StoreComputer.Models.HangHoa>
+
+@{
+    ViewBag.Title = "G Computer";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2 style="text-align:center">Thông Tin Hàng Hóa Cần Tìm Kiếm</h2>
+
+<div class="container-fluid">
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <a href="~/Admin/ThemHangHoa" class="btn btn-success"> Thêm Hàng Hóa</a>
+                    </div>
+            </h6>
+            <form action="~/Admin/timKiemHangHoa" class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+                <div class="input-group">
+                    <input type="type" class="form-control bg-light border-0 small" placeholder="Tìm kiếm..."
+                           name="SearchHH" aria-label="Search" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="submit">
+                            <i class="fas fa-search fa-sm"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Mã hàng</th>
+                            <th>Tên loại</th>
+                            <th>Tên hãng</th>
+                            <th>Tên hàng</th>
+                            <th>Ngày nhập</th>
+                            <th>Giá mới</th>
+                            <th>Giá cũ</th>
+                            <th>Số lượng</th>
+                            <th>Hình ảnh</th>
+                            <th>Giảm giá</th>
+                            <th>Tình trạng sản phẩm</th>
+                            <th>Chức năng</th>
+                        </tr>
+                    </thead>
+                    @foreach (var item in Model)
+                    {
+                        <tbody>
+                            <tr>
+                                <td>@item.maHang</td>
+                                <td>
+                                    @{
+                                        StoreComputer.Models.StoreComputerEntities1 db = new StoreComputer.Models.StoreComputerEntities1();
+                                        var loai = db.LoaiHangs.Find(item.maLoai);
+                                        if (loai != null)
+                                        {
+                                            <span>@loai.tenLoai</span>
+                                        }
+                                }
+                            </td>
+                            <td>
+                                @{
+                                    if (item.NhaCungCap != null)
+                                    {
+                                        <span>@item.NhaCungCap.tenNCC</span>
+                                    }
+                            }
+                        </td>
+                        <td>@item.tenHang</td>
+                        <td>@String.Format("{0:dd/MM/yyyy}", item.ngayNhap)</td>
+                        <td>@String.Format("{0:#,##0}", item.giaMoi)</td>
+                        <td>@String.Format("{0:#,##0}", item.giaCu)</td>
+                        <td>@item.soLuong</td>
+                        <td><img src="~/@item.hinhAnh" style="width:100px" /></td>
+                        <td>@item.giamGia</td>
+                        <td>@item.trangThaiSP</td>
+                        <td>
+                            <h6 class="m-0 font-weight-bold text-primary">
+                                <div class="form-group">
+                                    <div class="col-md-offset-2 col-md-10">
+
+                                        <a href="~/Admin/editHangHoa?id=@item.maHang" class="btn btn-success" style="margin-bottom:5px"> Sửa</a>
+                                        <a href="~/Admin/DetailHangHoa?id=@item.maHang" class="btn btn-info" style="margin-bottom:5px"> Chi tiết</a>
+                                        <a href="~/Admin/XoaHangHoa?id=@item.maHang" class="btn btn-danger" style="margin-bottom:5px"> Xóa</a>
+                                    </div>
+                            </h6>
+                        </td>
+                    </tr>
+                </tbody>
+            }
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

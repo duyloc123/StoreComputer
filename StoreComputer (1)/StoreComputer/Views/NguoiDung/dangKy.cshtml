@@ -1,0 +1,63 @@
+﻿@model StoreComputer.Models.KhachHang
+
+@{
+    ViewBag.Title = "Đăng Ký";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<div style="height:850px">
+    <h2 style="text-align:center;margin-top:15px">Đăng ký tài khoản</h2>
+
+    <div class="align-self-md-center" style="margin-top: 30px; margin-left: 36rem; width: 1000px;">
+        <div class="col-md-7">
+
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+
+            <div class="form-horizontal">
+                <hr />
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="form-group">
+                <label>Họ tên khách hàng</label>
+                <input type="text" name="tenKH" class="form-control" />
+                @Html.ValidationMessageFor(model => model.maKH, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="form-group">
+                <label>Địa chỉ</label>
+                <input type="text" name="diaChi" class="form-control" />
+                @Html.ValidationMessageFor(model => model.diaChi ,"", new { @class = "text-danger" })
+            </div>
+
+            <div class="form-group">
+                <label>Số điện thoại</label>
+                <input type="number" name="soDienThoai" class="form-control" />
+                @Html.ValidationMessageFor(model => model.soDienThoai, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="form-group">
+                <label>Tài khoản</label>
+                <input type="text" name="taiKhoan" class="form-control" />
+                @Html.ValidationMessageFor(model => model.taiKhoan, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="form-group">
+                <label>Mật khẩu</label>
+                <input type="password" name="matKhau" class="form-control" />
+                @Html.ValidationMessageFor(model => model.matKhau, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="form-group">
+                <label>Email</label>
+                <input type="email" name="Email" class="form-control" />
+                @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+            </div>
+                <div class="form-group">
+                    <input type="submit" name="" value="Đăng ký" class="btn btn-block btn-success">
+                </div>
+            </div>
+            }
+        </div>
+    </div>
+</div>

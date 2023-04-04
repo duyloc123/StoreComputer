@@ -1,0 +1,66 @@
+﻿@model IEnumerable<StoreComputer.Models.ShoppingCartItem>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<h2 style="text-align:center;font-size:40px;margin:15px 0px"><span>Giỏ hàng</span></h2>
+<div class="main content" style="height:800px" id="load_data">
+    <table class="table">
+        <tr>
+            <th style="border:1px solid black">STT</th>
+            <th style="border:1px solid black">Tên sản phẩm</th>
+            <th style="border:1px solid black">Ảnh sản phẩm</th>
+            <th style="border:1px solid black">Số lượng</th>
+            <th style="border:1px solid black">Giá tiền</th>
+            <th style="border:1px solid black">Thành tiền</th>
+        </tr>
+        @if (Model != null && Model.Any())
+        {
+            var i = 0;
+            var tongtien = decimal.Zero;
+            foreach (var item in Model)
+            {
+                tongtien += item.tongTien;
+               <tr style="border:1px solid black" id="trow_@item.maHang">
+                   <td>@(i+1)</td>
+                   <td style="border:1px solid black">@item.tenHang</td>
+                   <td style="border:1px solid black"><img src="~/@item.hinhAnh" style="width:100px;height:100px" /></td>
+
+                   <td style="border:1px solid black"><input type="number" value="@item.soLuong" min="1" style="width:65px" id="soLuong" /></td>
+                   <td style="border:1px solid black"> @String.Format("{0:#,##0 đ}", item.giaTien)</td>
+                   <th style="border:1px solid black">@String.Format("{0:#,##0 đ}", item.tongTien)</th>
+                   <td>
+                       <input hidden name="maSP" id="maSP" value="@item.maHang" />
+                       <a href="" onclick="del()" class="btn btn-danger">
+                           <i class="fa fa-trash"></i>
+                       </a>
+                       <input hidden name="maSP" id="maSP" value="@item.maHang" />
+                       <a href="" onclick="update()" class="btn btn-success">
+                           <i class="fa fa-spinner"></i>
+                       </a>
+                   </td>
+               </tr>
+                i++;
+            }
+            <tr>
+                <th style="border-left:1px solid black;border-bottom:1px solid black;" colspan="5" class="text-right">Tổng:</th>
+                <th style="border-right:1px solid black;border-bottom:1px solid black;color:red;" class="text-center">@String.Format("{0:#,##0 đ}", tongtien)</th>
+            </tr>
+            <tr>
+                <th colspan="6" class="text-right">
+                    <a href="" class="btn btn-danger" onclick="delAll()">
+                        <i class="fa fa-trash"></i>
+                    </a>
+                    <a href="~/ShoppingCart/thanhToan" class="btn btn-success">Thanh toán</a>
+                </th>
+            </tr>
+        }
+        else
+        {
+            <tr>
+                <td>Không có sản phẩm trong giỏ hàng</td>
+            </tr>
+        }
+    </table>
+</div>

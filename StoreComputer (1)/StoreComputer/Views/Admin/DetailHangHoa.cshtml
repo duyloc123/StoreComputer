@@ -1,0 +1,64 @@
+﻿@model StoreComputer.Models.HangHoa
+
+@{
+    ViewBag.Title = "DetailNCC";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2 style="text-align:center">Thông tin chi tiết hàng hóa</h2>
+
+<div>
+    <hr />
+    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Mã hàng</th>
+                <th>Tên loại</th>
+                <th>Tên hãng</th>
+                <th>Tên hàng</th>
+                <th>Ngày nhập</th>
+                <th>Giá mới</th>
+                <th>Giá cũ</th>
+                <th>Số lượng</th>
+                <th>Hình ảnh</th>
+                <th>Mô tả</th>
+                <th>Mô tả chi tiết</th>
+                <th>Giảm giá</th>
+                <th>Tình trạng sản phẩm</th>
+                <th>Chức năng</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@Html.DisplayFor(model => model.maHang)</td>
+                <td>@Html.DisplayFor(model => model.LoaiHang.tenLoai)</td>
+                <td>@Html.DisplayFor(model => model.NhaCungCap.tenNCC)</td>
+                <td>@Html.DisplayFor(model => model.tenHang)</td>
+                <td>@String.Format("{0:dd/MM/yyyy}", Model.ngayNhap)</td>
+                <td>@String.Format("{0:#,##0}", Model.giaMoi)</td>
+                <td>@String.Format("{0:#,##0}", Model.giaCu)</td>
+                <td>@Html.DisplayFor(model => model.soLuong)</td>
+                <td><img src="~/@Model.hinhAnh" style="width:100px" /></td>
+                <td>@Html.DisplayFor(model => model.moTa)</td>
+                <td>@Html.DisplayFor(model => model.maTaChiTiet)</td>
+                <td>@Html.DisplayFor(model => model.giamGia)</td>
+                <td>@Html.DisplayFor(model => model.trangThaiSP)</td>
+
+            </tr>
+        </tbody>
+    </table>
+</div>
+<h6 class="m-0 font-weight-bold text-primary">
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <a href="~/Admin/editHangHoa?id=@Model.maHang" class="btn btn-success"> Sửa</a>
+        </div>
+</h6>
+<div class="card-body">
+    <a href="~/Admin/HangHoa" class="btn btn-primary btn-icon-split">
+        <span class="icon text-white-50">
+        </span>
+        <span class="text">Trở về trang trước</span>
+    </a>
+</div>

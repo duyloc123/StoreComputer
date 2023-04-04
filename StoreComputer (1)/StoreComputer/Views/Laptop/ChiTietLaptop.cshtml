@@ -1,0 +1,247 @@
+﻿@model StoreComputer.Models.HangHoa
+
+@{
+    ViewBag.Title = "G Computer";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+<!-- Product Detail -->
+<section class="sec-product-detail bg0 p-t-65 p-b-60" style="margin-top:110px">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-7 p-b-30">
+                <div class="p-l-25 p-r-30 p-lr-0-lg">
+                    <div class="wrap-slick3 flex-sb flex-w">
+                        <div class="wrap-slick3-arrows flex-sb-m flex-w"></div>
+
+                        <div class="slick3 gallery-lb">
+                            <div class="item-slick3" data-thumb="">
+                                <div class="wrap-pic-w pos-relative">
+                                    <img src="~/@Model.hinhAnh" alt="IMG-PRODUCT" style="width:640px;height:357px">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-5 p-b-30">
+                <div class="p-r-50 p-t-5 p-lr-0-lg">
+                    <h4 class="mtext-105 cl2 js-name-detail p-b-16" style="font-size:24px;color:#333333">
+                        @Model.tenHang
+                    </h4>
+
+                    <del class="mtext-106 cl2" style="font-size:10px">
+                        @String.Format("{0:#,##0 đ}", Model.giaCu)
+
+                    </del>
+                    <span class="mtext-106 cl2" style="font-size:20px;color:red;margin-left:25px">
+                        @String.Format("{0:#,##0 đ}", Model.giamGia)
+
+                    </span>
+                    <br />
+                    <span class="mtext-106 cl2" style="font-size:20px;color:deepskyblue">
+                        @String.Format("{0:#,##0 đ}", Model.giaMoi)
+
+                    </span>
+
+                    <p class="stext-102 cl3 p-t-23">
+                        @Html.Raw(Model.moTa)
+                    </p>
+                    <input type="number" value="1" min="1" style="width:65px" id="soLuong" />
+                    <br />
+                    <!--  -->
+                    <div class="p-t-33">
+
+
+                        <div class="flex-w flex-r-m p-b-10">
+                            <div class="size-204 flex-w flex-m respon6-next">
+                                <div class="wrap-num-product flex-w m-r-20 m-tb-10">
+                                    <div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
+                                        <i class="fs-16 zmdi zmdi-minus"></i>
+                                    </div>
+
+                                    <div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
+                                        <i class="fs-16 zmdi zmdi-plus"></i>
+                                    </div>
+                                </div>
+
+                                <input hidden name="maSP" id="maSP" value="@Model.maHang" />
+                                <button type="button" onclick="add()" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail" style="margin-left: 15px; color: rgb(20, 53, 195); background-color: rgb(255, 255, 255); border:1px solid rgb(20, 53, 195); ">
+                                    Thêm Vào Giỏ Hàng
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bor10 m-t-50 p-t-43 p-b-40">
+            <!-- Tab01 -->
+            <div class="tab01">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist"style="margin-top:1rem">
+                    <li class="nav-item p-b-10">
+                        <a class="nav-link active" data-toggle="tab" href="#description" role="tab">Mô tả sản phẩm</a>
+                    </li>
+
+
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content p-t-43" style="margin-top:1rem">
+                    <!-- - -->
+                    <div class="tab-pane fade show active" id="description" role="tabpanel">
+                        <div class="how-pos2 p-lr-15-md">
+                            @Html.Raw(@System.Net.WebUtility.HtmlDecode(Model.maTaChiTiet))
+                            <p class="stext-102 cl6">
+
+                            </p>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="health_section layout_padding">
+    <div class="health_carousel-container">
+        <h2 class="text-uppercase">
+            Sản Phẩm Cùng Loại
+
+        </h2>
+        <div class="carousel-wrap layout_padding2">
+            <div class="owl-carousel">
+                <div class="item">
+                    <div class="box">
+                        <div class="img-box">
+                            <img src="~/Data/g5-ge-51vn263sh-fix_3da6856774d849cf8c80548b6ef3f0cd_c55c38c0994f498b8ded543fd86fbeb4.jpg" height="250px" width="250px" alt="">
+                            <a href="" class="order-now">Xem Thêm</a>
+                        </div>
+                        <div class="text" style="padding-top:10px;text-align:center;text-transform:uppercase;font-size:15px">
+                            <h6 style="margin-bottom:5px">
+                                ASUS
+                            </h6>
+                        </div>
+                        <div class="detail-box">
+                            <div class="star_container" style="margin-bottom:15px">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                            </div>
+                            <div class="text">
+                                <h6 class="price">
+                                    15,750,000
+                                    <span>
+                                        VNĐ
+                                    </span>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="box">
+                        <div class="img-box">
+                            <img src="~/Data/gearvn-laptop-gaming-asus-rog-strix-g15-g513ie-hn246w-1_21909f6cb1144db7a4b8ce164efcd13f.jpg" height="250px" width="250px" alt="">
+                            <a href="" class="order-now">Xem Thêm</a>
+                        </div>
+                        <div class="text" style="padding-top:10px;text-align:center;text-transform:uppercase;font-size:15px">
+                            <h6 style="margin-bottom:5px">
+                                Gigabyte
+                            </h6>
+                        </div>
+                        <div class="detail-box">
+                            <div class="star_container" style="margin-bottom:15px">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                            </div>
+                            <div class="text">
+                                <h6 class="price">
+                                    17,750,000
+                                    <span>
+                                        VNĐ
+                                    </span>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="box">
+                        <div class="img-box">
+                            <img src="~/Data/gearvn-laptop-gaming-asus-tuf-a15-fa506icb-hn355w-1_96a61949a11345ac906fce99162c2b81.jpg" height="250px" width="250px" alt="">
+                            <a href="" class="order-now">Xem Thêm</a>
+                        </div>
+                        <div class="text" style="padding-top:10px;text-align:center;text-transform:uppercase;font-size:15px">
+                            <h6 style="margin-bottom:5px">
+                                Asus
+                            </h6>
+                        </div>
+                        <div class="detail-box">
+                            <div class="star_container" style="margin-bottom:15px">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                            </div>
+                            <div class="text">
+                                <h6 class="price">
+                                    23,750,000
+                                    <span>
+                                        VNĐ
+                                    </span>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="box">
+                        <div class="img-box">
+                            <img src="~/Data/laptop_gaming_acer_aspire_7_a715_42g_r05g_f9b4034f328d4211b9ffe51f7b1c4cbf.jpg" height="250px" width="250px" alt="">
+                            <a href="" class="order-now">Xem Thêm</a>
+                        </div>
+                        <div class="text" style="padding-top:10px;text-align:center;text-transform:uppercase;font-size:15px">
+                            <h6 style="margin-bottom:5px">
+                                Asus TUF
+                            </h6>
+                        </div>
+                        <div class="detail-box">
+                            <div class="star_container" style="margin-bottom:15px">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                            </div>
+                            <div class="text">
+                                <h6 class="price">
+                                    24,750,000
+                                    <span>
+                                        VNĐ
+                                    </span>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+

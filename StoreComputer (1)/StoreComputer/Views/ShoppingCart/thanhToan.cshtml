@@ -1,0 +1,56 @@
+﻿@model StoreComputer.Models.DatHang
+@{
+    ViewBag.Title = "Thanh Toán";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<div style="height:753px">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 style="text-align:center"> Thanh Toán</h1>
+        </div>
+    </div>
+
+    <div class="row" style="margin-top: 15px; margin-left: 18rem; width: 1000px;">
+        <div class="col-md-7">
+            @using (Ajax.BeginForm("thanhToan", "ShoppingCart", new AjaxOptions
+                {
+                    HttpMethod = "POST",
+                UpdateTargetId = "load_data"
+            }))
+            {
+                @Html.AntiForgeryToken()
+            <h3>Thông tin khách hàng</h3>
+            <div class="form-group">
+                <label>Họ tên khách hàng</label>
+                <input type="text" name="tenKhachHang" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label>Số điện thoại khách hàng</label>
+                <input type="text" name="sdtKhachHang" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label>Địa chỉ giao hàng</label>
+                <input type="text" name="diaChi" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label>Ghi chú</label>
+                <input type="text" name="ghiChu" class="form-control" style="height:100px" />
+            </div>
+            <div class="form-group">
+                <label>Hình thức thanh toán</label>
+                <select class="form-control" name="ptThanhToan">
+                    <option value="COD" selected>COD</option>
+                    <option value="Chuyển khoản" >Chuyển khoản</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <button type="submit" name="thanhToan" class="btn btn-block btn-success">Đặt hàng</button>
+            </div>
+            }
+        </div>
+        <div class="col-md-5">
+            @Html.Action("partial_item_thanhToan","ShoppingCart")
+        </div>
+    </div>
+</div>

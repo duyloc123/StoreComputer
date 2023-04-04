@@ -1,0 +1,39 @@
+﻿@model StoreComputer.Models.LoaiHang
+
+@{
+    ViewBag.Title = "DetailNCC";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2 style="text-align:center">Thông tin chi tiết loại hàng</h2>
+
+<div>
+    <hr />
+    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Mã Loại</th>
+                <th>Tên Loại</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@Html.DisplayFor(model => model.maLoai)</td>
+                <td>@Html.DisplayFor(model => model.tenLoai)</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<h6 class="m-0 font-weight-bold text-primary">
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <a href="~/Admin/editLoaiHang?id=@Model.maLoai" class="btn btn-success"> Sửa</a>
+        </div>
+</h6>
+<div class="card-body">
+    <a href="~/Admin/DanhSachLoaiHang" class="btn btn-primary btn-icon-split">
+        <span class="icon text-white-50">
+        </span>
+        <span class="text">Trở về trang trước</span>
+    </a>
+</div>

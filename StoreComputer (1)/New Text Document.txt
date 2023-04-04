@@ -1,0 +1,87 @@
+USE master
+CREATE DATABASE StoreComputer
+
+USE StoreComputer
+
+create table [TaiKhoan]
+(
+    [TaiKhoan] [nvarchar] (50) NOT NULL,
+	[MatKhau] [nvarchar] (20) NOT NULL,
+	[hoTen] [nvarchar] (20) NOT NULL,
+	CONSTRAINT [PK_TaiKhoan] PRIMARY KEY ([TaiKhoan])
+)
+
+create table [NhaCungCap]
+(
+	[maNCC] [int] IDENTITY(1,1) NOT NULL,
+	[tenNCC] [nvarchar] (30) NOT NULL,
+	[diaChi] [nvarchar] (20) NOT NULL,
+	[soDienThoai] [nvarchar] (13) NOT NULL,
+	CONSTRAINT [PK_NhaCungCap] PRIMARY KEY ([maNCC])
+)
+create table [LoaiHang]
+(
+	[maLoai] [int] NOT NULL,
+	[tenLoai] [nvarchar] (30) NOT NULL,
+	CONSTRAINT [PK_LoaiHang] PRIMARY KEY ([maLoai])
+)
+create table [HangHoa]
+(
+	[maHang] [int] IDENTITY(1,1) NOT NULL,
+	[maLoai] [int] NOT NULL,
+	[maNCC] [int] NOT NULL,
+	[tenHang] [nvarchar] (30) NOT NULL,
+	[ngayNhap] [date] NOT NULL,
+	[giaMoi] [float] NOT NULL,
+	[giaCu] [float] NOT NULL,
+	[soLuong] [int] NOT NULL,
+	[hinhAnh] [nvarchar] (1000) NULL,
+	[moTa] [nvarchar] (2000) NOT NULL,
+	[maTaChiTiet] [nvarchar] (4000) NOT NULL,
+	[giamGia] [nvarchar] (10) NULL,
+	[trangThaiSP] [nvarchar] (10) NOT NULL,
+	CONSTRAINT [PK_HangHoa] PRIMARY KEY ([maHang])
+)
+create table [KhachHang]
+(
+	[maKH] [int] IDENTITY(1,1) NOT NULL,
+	[tenKH] [nvarchar] (30) NOT NULL,
+	[diaChi] [nvarchar] (500) NOT NULL,
+	[soDienThoai] [nvarchar] (13) NOT NULL,
+	[taiKhoan] [nvarchar] (30) NOT NULL,
+	[matKhau] [nvarchar] (1000) NOT NULL,
+	[Email] [nvarchar] (30) NOT NULL,
+	CONSTRAINT [PK_KhachHang] PRIMARY KEY ([maKH])
+)
+create table [DatHang]
+(
+	[maHD] [int] IDENTITY(1,1) NOT NULL,
+	[tenKhachHang] [nvarchar] (30) NULL,
+	[sdtKhachHang] [nvarchar] (13) NULL,
+        [diaChi] [nvarchar] (50) NULL,
+	[ghiChu] [nvarchar] (1000) NULL,
+        [soLuong] [int] NULL,
+        [tongTien] [float] NULL,
+        [ptThanhToan] [nvarchar] (50) NULL,
+        [tinhtrangThanhToan] [nvarchar] (50) NULL,
+        [tinhtrangDonHang] [nvarchar] (50) NULL,
+	CONSTRAINT [PK_HoaDon] PRIMARY KEY ([maHD])
+)
+create table [ChiTietDatHang]
+(
+	[maHD] [int] NOT NULL,
+	[maHang] [int] NOT NULL,
+	[soLuong] [int] NOT NULL,
+	[thanhTien] [float] NOT NULL,
+	CONSTRAINT [PK_ChiTietHoaDon] PRIMARY KEY ([maHD],[maHang])
+)
+
+
+ALTER TABLE [HangHoa] WITH CHECK ADD
+	   CONSTRAINT [FK_HangHoa_LoaiHang] FOREIGN KEY ([maLoai]) REFERENCES [LoaiHang] ([maLoai])
+ALTER TABLE [HangHoa] WITH CHECK ADD
+       CONSTRAINT [FK_HangHoa_NhaCungCap] FOREIGN KEY ([maNCC]) REFERENCES [NhaCungCap] ([maNCC])
+ALTER TABLE [ChiTietDatHang] WITH CHECK ADD
+       CONSTRAINT [FK_ChiTietDatHang_DatHang] FOREIGN KEY ([maHD]) REFERENCES [DatHang] ([maHD])
+ALTER TABLE [ChiTietDatHang] WITH CHECK ADD
+       CONSTRAINT [FK_ChiTietDatHang_HangHoa] FOREIGN KEY ([maHang]) REFERENCES [HangHoa] ([maHang])

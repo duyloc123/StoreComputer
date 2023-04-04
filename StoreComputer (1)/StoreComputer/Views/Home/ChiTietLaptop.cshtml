@@ -1,0 +1,16 @@
+﻿@model StoreComputer.Models.HangHoa
+
+@{
+    ViewBag.Title = "ChiTietLaptop";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+@if( Model == null)
+{
+    <h1>Sản phẩm không tồn tại</h1>
+}
+else
+{
+    <h2>@Model.tenHang</h2>
+
+}

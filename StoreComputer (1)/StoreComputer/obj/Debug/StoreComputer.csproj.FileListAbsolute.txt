@@ -1,0 +1,400 @@
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\StoreComputer.dll.config
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\StoreComputer.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\StoreComputer.pdb
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\csc.exe
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\csc.exe.config
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\csc.rsp
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\csi.exe
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\csi.exe.config
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\csi.rsp
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.AppContext.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.Console.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.IO.Compression.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.Net.Http.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.Net.Sockets.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.ValueTuple.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.Xml.XPath.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\vbc.exe
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\vbc.exe.config
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\vbc.rsp
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\VBCSCompiler.exe
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\System.Web.Helpers.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\System.Web.Mvc.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\System.Web.Razor.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\System.Web.Webpages.Deployment.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\System.Web.Webpages.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\System.Web.Webpages.Razor.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\System.Web.Razor.xml
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\System.Web.Webpages.xml
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\System.Web.Webpages.Deployment.xml
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\System.Web.Webpages.Razor.xml
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\System.Web.Helpers.xml
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\System.Web.Mvc.xml
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\obj\Debug\StoreComputer.csproj.AssemblyReference.cache
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\obj\Debug\StoreComputer.csproj.CoreCompileInputs.cache
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\obj\Debug\StoreComputer.csproj.CopyComplete
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\obj\Debug\StoreComputer.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\obj\Debug\StoreComputer.pdb
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\EntityFramework.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\EntityFramework.SqlServer.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\EntityFramework.xml
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\EntityFramework.SqlServer.xml
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\PagedList.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\PagedList.Mvc.dll
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\PagedList.xml
+C:\Users\pjpjl\OneDrive\Máy tính\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\PagedList.Mvc.xml
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\StoreComputer.dll.config
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\StoreComputer.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\StoreComputer.pdb
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\csc.exe
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\csc.exe.config
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\csc.rsp
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\csi.exe
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\csi.exe.config
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\csi.rsp
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.AppContext.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.Console.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.IO.Compression.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.Net.Http.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.Net.Sockets.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.ValueTuple.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.Xml.XPath.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\vbc.exe
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\vbc.exe.config
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\vbc.rsp
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\VBCSCompiler.exe
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\EntityFramework.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\EntityFramework.SqlServer.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\PagedList.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\PagedList.Mvc.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\System.Web.Helpers.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\System.Web.Mvc.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\System.Web.Razor.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\System.Web.Webpages.Deployment.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\System.Web.Webpages.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\System.Web.Webpages.Razor.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\EntityFramework.xml
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\EntityFramework.SqlServer.xml
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\PagedList.xml
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\PagedList.Mvc.xml
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\System.Web.Razor.xml
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\System.Web.Webpages.xml
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\System.Web.Webpages.Deployment.xml
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\System.Web.Webpages.Razor.xml
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\System.Web.Helpers.xml
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\System.Web.Mvc.xml
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\obj\Debug\StoreComputer.csproj.AssemblyReference.cache
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\obj\Debug\StoreComputer.csproj.CoreCompileInputs.cache
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\obj\Debug\StoreComputer.csproj.CopyComplete
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\obj\Debug\StoreComputer.dll
+C:\Users\PC\Downloads\Compressed\Đồ án lập trình web\Code\StoreComputer\StoreComputer\obj\Debug\StoreComputer.pdb
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\StoreComputer.dll.config
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\StoreComputer.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\StoreComputer.pdb
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\csc.exe
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\csc.exe.config
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\csc.rsp
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\csi.exe
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\csi.exe.config
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\csi.rsp
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\System.AppContext.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\System.Console.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\System.IO.Compression.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\System.Net.Http.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\System.Net.Sockets.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\System.ValueTuple.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\System.Xml.XPath.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\vbc.exe
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\vbc.exe.config
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\vbc.rsp
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\VBCSCompiler.exe
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\EntityFramework.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\EntityFramework.SqlServer.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\PagedList.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\PagedList.Mvc.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\System.Web.Helpers.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\System.Web.Mvc.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\System.Web.Razor.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\System.Web.Webpages.Deployment.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\System.Web.Webpages.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\System.Web.Webpages.Razor.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\EntityFramework.xml
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\EntityFramework.SqlServer.xml
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\PagedList.xml
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\PagedList.Mvc.xml
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\System.Web.Razor.xml
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\System.Web.Webpages.xml
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\System.Web.Webpages.Deployment.xml
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\System.Web.Webpages.Razor.xml
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\System.Web.Helpers.xml
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\System.Web.Mvc.xml
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\obj\Debug\StoreComputer.csproj.AssemblyReference.cache
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\obj\Debug\StoreComputer.csproj.CoreCompileInputs.cache
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\obj\Debug\StoreComputer.csproj.CopyComplete
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\obj\Debug\StoreComputer.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer\StoreComputer\obj\Debug\StoreComputer.pdb
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\StoreComputer.dll.config
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\StoreComputer.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\StoreComputer.pdb
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\csc.exe
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\csc.exe.config
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\csc.rsp
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\csi.exe
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\csi.exe.config
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\csi.rsp
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\System.AppContext.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\System.Console.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\System.IO.Compression.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\System.Net.Http.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\System.Net.Sockets.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\System.ValueTuple.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\System.Xml.XPath.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\vbc.exe
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\vbc.exe.config
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\vbc.rsp
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\EntityFramework.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\PagedList.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\PagedList.Mvc.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\System.Web.Helpers.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\System.Web.Mvc.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\System.Web.Razor.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\System.Web.Webpages.Deployment.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\System.Web.Webpages.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\System.Web.Webpages.Razor.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\EntityFramework.xml
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\PagedList.xml
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\PagedList.Mvc.xml
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\System.Web.Razor.xml
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\System.Web.Webpages.xml
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\System.Web.Webpages.Deployment.xml
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\System.Web.Webpages.Razor.xml
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\System.Web.Helpers.xml
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\System.Web.Mvc.xml
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\obj\Debug\StoreComputer.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\obj\Debug\StoreComputer.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\obj\Debug\StoreComputer.csproj.CopyComplete
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\obj\Debug\StoreComputer.dll
+C:\Users\User\Desktop\StoreComputer (1)\StoreComputer\obj\Debug\StoreComputer.pdb
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\StoreComputer.dll.config
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\StoreComputer.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\StoreComputer.pdb
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\csc.exe
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\csc.exe.config
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\csc.rsp
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\csi.exe
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\csi.exe.config
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\csi.rsp
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\System.AppContext.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\System.Console.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\System.IO.Compression.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\System.Net.Http.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\System.Net.Sockets.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\System.ValueTuple.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\System.Xml.XPath.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\vbc.exe
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\vbc.exe.config
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\vbc.rsp
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\VBCSCompiler.exe
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\EntityFramework.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\EntityFramework.SqlServer.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\PagedList.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\PagedList.Mvc.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\System.Web.Helpers.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\System.Web.Mvc.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\System.Web.Razor.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\System.Web.Webpages.Deployment.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\System.Web.Webpages.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\System.Web.Webpages.Razor.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\EntityFramework.xml
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\EntityFramework.SqlServer.xml
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\PagedList.xml
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\PagedList.Mvc.xml
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\System.Web.Razor.xml
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\System.Web.Webpages.xml
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\System.Web.Webpages.Deployment.xml
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\System.Web.Webpages.Razor.xml
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\System.Web.Helpers.xml
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\System.Web.Mvc.xml
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\obj\Debug\StoreComputer.csproj.AssemblyReference.cache
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\obj\Debug\StoreComputer.csproj.CoreCompileInputs.cache
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\obj\Debug\StoreComputer.csproj.CopyComplete
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\obj\Debug\StoreComputer.dll
+C:\Users\pjpjl\OneDrive\Máy tính\StoreComputer (1)\StoreComputer (1)\StoreComputer\obj\Debug\StoreComputer.pdb

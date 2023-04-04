@@ -1,0 +1,81 @@
+﻿@model List<StoreComputer.Models.HangHoa>
+
+@{
+    ViewBag.Title = "G Computer";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<div class="main">
+    <div class="left">
+        <div class="main-left">
+            <div class="content-left">
+                <h2 class="text-uppercase" style="font-size: 20px; padding-top: 15px; font-weight: bold; text-align:center">
+                    Danh Mục
+                </h2>
+                <h3 style="font-size: 15px; padding-left: 40px; font-weight: bold;padding-top:20px">Linh Kiện</h3>
+                <ul style="color:black">
+                    <li>
+                        <a href="~/LinhKien/DanhMucLinhKien?id=2">Bàn Phím & Chuột</a>
+                    </li>
+                    <li>
+                        <a href="~/LinhKien/DanhMucLinhKien?id=3">Màn Hình</a>
+                    </li>
+                    <li>
+                        <a href="~/LinhKien/DanhMucLinhKien?id=4">RAM</a>
+                    </li>
+                    <li>
+                        <a href="~/LinhKien/DanhMucLinhKien?id=5">CPU</a>
+                    </li>
+                    <li>
+                        <a href="~/LinhKien/DanhMucLinhKien?id=6">VGA</a>
+                    </li>
+                    <li>
+                        <a href="~/LinhKien/DanhMucLinhKien?id=7">PSU</a>
+                    </li>
+                    <li>
+                        <a href="~/LinhKien/DanhMucLinhKien?id=8">Mainboard</a>
+                    </li>
+                    <li>
+                        <a href="~/LinhKien/DanhMucLinhKien?id=9">Ổ cứng</a>
+                    </li>
+                    <li>
+                        <a href="~/LinhKien/DanhMucLinhKien?id=9">Case</a>
+                    </li>
+                    <li>
+                        <a href="~/LinhKien/DanhMucLinhKien?id=9">Tản nhiệt</a>
+                    </li>
+                </ul>
+                <h3 style="font-size: 15px; padding-top: 15px; padding-left: 40px; font-weight: bold">Sắp Xếp Theo</h3>
+                <ul style="color:black">
+                    <li><a href="~/LinhKien/GiamDan">Giá giảm dần</a></li>
+                    <li><a href="~/LinhKien/TangDan">Giá tăng dần</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="right">
+        @foreach (var item in Model)
+        {
+            <ul class="products">
+                <li>
+                    <div class="product-item">
+                        <div class="product-top">
+                            <a href="~/LinhKien/ChiTietLinhKien?id=@item.maHang" class="product-thumb">
+                                <img src="~/@item.hinhAnh" width="250px" height="250px" alt="" />
+                            </a>
+                            <a href="~/LinhKien/ChiTietLinhKien?id=@item.maHang" class="order-now">Đặt hàng</a>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-cat">@item.LoaiHang.tenLoai</div>
+                            <div class="product-name">@item.tenHang</div>
+                            <div class="product-priceold">
+                                <del> @String.Format("{0:#,##0}", item.giaCu)</del>
+                                <div class="product-pricenew"> @String.Format("{0:#,##0}", item.giaMoi) <span>Đ</span></div>
+                            </div>
+                        </div>
+                </li>
+            </ul>
+        }
+    </div>
+</div>

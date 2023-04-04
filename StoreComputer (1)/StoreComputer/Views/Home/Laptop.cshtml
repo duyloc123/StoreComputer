@@ -1,0 +1,59 @@
+﻿@model List<StoreComputer.Models.HangHoa>
+@{
+    ViewBag.Title = "G Computer";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<div class="main">
+    <div class="left">
+        <h2 class="text-uppercase" style="font-size:20px;padding-top:30px;text-align:center">
+            Danh Mục Sản Phẩm
+        </h2>
+        <h3 style="font-size:20px;padding-top:70px;padding-left:40px">Thương Hiệu</h3>
+        <ul style="color:black">
+            <li><a href="#">ASUS</a></li>
+            <li><a href="#">Gigabyte</a></li>
+            <li><a href="#">MSI</a></li>
+            <li><a href="#">Acer</a></li>
+        </ul>
+        <h3 style="font-size:20px;padding-top:70px;padding-left:40px">Sắp Xếp Theo:</h3>
+        <ul style="color:black">
+                <li><a href="#">Giá giảm dần</a></li>
+                <li><a href="#">Giá tăng dần</a></li>
+        </ul>
+    </div>
+    <div class="right">
+        <h1 class="text-uppercase">
+            Laptop Gaming
+        </h1>
+        @foreach (var item in Model)
+        {
+            <a href="~/Home/ChiTietLaptop?id=@item.maHang">
+                <div class="product-list">
+                    <div class="product-item">
+                        <div class="product-img">
+                            <img src="~/Theme/images/p-1.jpg" />
+                        </div>
+                        <div class="product-text">
+                            <h6 class="text">
+                                @item.tenHang
+                            </h6>
+                        </div>
+                        <div class="product-price">
+                            <h6 class="price-old" style="font-size:12px">
+                                <del>@item.giaCu</del>
+                            </h6>
+                            <h6 class="price-new" style="color:#1435C3">
+                                @item.giaMoi
+                                <span>
+                                    Đ
+                                </span>
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        }
+    </div>
+</div>
+

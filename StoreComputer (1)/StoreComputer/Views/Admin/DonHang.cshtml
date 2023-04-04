@@ -1,0 +1,85 @@
+﻿@model List<StoreComputer.Models.DatHang>
+@{
+    ViewBag.Title = "Thông tin đặt hàng";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2 style="text-align:center">Quản Lý Đơn Hàng </h2>
+
+<div class="container-fluid">
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">
+                <h6 class="m-0 font-weight-bold text-primary">
+                </h6>
+                <form action="~/Admin/timKiemDonHang" class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+                    <div class="input-group">
+                        <input type="type" class="form-control bg-light border-0 small" placeholder="Tìm kiếm..."
+                               name="SearchString" aria-label="SearchString" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary" type="submit">
+                                <i class="fas fa-search fa-sm"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </h6>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Mã đơn hàng</th>
+                            <th>Tên khách hàng</th>
+                            <th>Số điện thoại</th>
+                            <th>Địa chỉ</th>
+                            <th>Ghi chú</th>
+                            <th>Phương thức thanh toán</th>
+                            <th>Tình trạng thanh toán</th>
+                            <th>Tình trạng đơn hàng</th>
+                        </tr>
+                    </thead>
+                    @foreach (var item in Model)
+                    {
+                        <tbody>
+                            <tr>
+                                <td>@item.maHD</td>
+                                <td>@item.tenKhachHang</td>
+                                <td>@item.sdtKhachHang</td>
+                                <td>@item.diaChi</td>
+                                <td>@item.ghiChu</td>
+                                <td>@item.ptThanhToan</td>
+                                @if(@item.tinhtrangThanhToan == "Chưa thanh toán")
+                                {
+                                  <td style="color:red">@item.tinhtrangThanhToan</td>
+                                }
+                                else{
+                                <td style="color:green">@item.tinhtrangThanhToan</td>
+                                }
+                                @if(item.tinhtrangDonHang == "Chưa giao hàng")
+                {
+                    <td style="color:red">@item.tinhtrangDonHang</td>
+                }
+else
+                {
+                    <td style="color:green">@item.tinhtrangDonHang</td>
+                }
+                                <td>
+                                    <h6 class="m-0 font-weight-bold text-primary">
+                                        <div class="form-group">
+                                            <div class="col-md-offset-2 col-md-10">
+
+                                                <a href="~/Admin/chiTietDonHang?id=@item.maHD" class="btn btn-info"> Chi tiết</a>
+                                            </div>
+                                    </h6>
+                                </td>
+                            </tr>
+                        </tbody>
+                    }
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,64 @@
+﻿@model List<StoreComputer.Models.HangHoa>
+
+@{
+    ViewBag.Title = "G Computer";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<div class="main">
+    <div class="left">
+        <div class="main-left">
+            <div class="content-left">
+                <h2 class="text-uppercase" style="font-size: 20px; padding-top: 15px; font-weight: bold; text-align:center">
+                    Danh Mục
+                </h2>
+                <h3 style="font-size: 15px; padding-left: 40px; font-weight: bold;padding-top:20px">Thương Hiệu</h3>
+                <ul style="color:black">
+                    <li>
+                        <a href="~/Laptop/DanhMucLaptop?id=1">ASUS</a>
+                    </li>
+                    <li>
+                        <a href="~/Laptop/DanhMucLaptop?id=2">Acer</a>
+                    </li>
+                    <li>
+                        <a href="~/Laptop/DanhMucLaptop?id=3">Gigabyte</a>
+                    </li>
+                    <li>
+                        <a href="~/Laptop/DanhMucLaptop?id=4">MSI</a>
+                    </li>
+                </ul>
+                <h3 style="font-size: 15px; padding-top: 15px; padding-left: 40px; font-weight: bold">Sắp Xếp Theo</h3>
+                <ul style="color:black">
+                    <li><a href="~/Laptop/giamDan">Giá giảm dần</a></li>
+                    <li><a href="~/Laptop/tangDan">Giá tăng dần</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="right">
+        @foreach (var item in Model)
+        {
+            <ul class="products">
+                <li>
+                    <div class="product-item">
+                        <div class="product-top">
+                            <a href="~/Laptop/ChiTietLaptop?id=@item.maHang" class="product-thumb">
+                                <img src="~/@item.hinhAnh" width="250px" height="250px" alt="" />
+                            </a>
+                            <a href="~/Laptop/ChiTietLaptop?id=@item.maHang" class="order-now">Đặt hàng</a>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-cat">@item.LoaiHang.tenLoai</div>
+                            <div class="product-name">@item.tenHang</div>
+                            <div class="product-sale">@item.giamGia</div>
+                            <div class="product-priceold">
+                                <del> @String.Format("{0:#,##0}", item.giaCu)</del>
+                                <div class="product-pricenew"> @String.Format("{0:#,##0}", item.giaMoi) <span>Đ</span></div>
+                            </div>
+                        </div>
+                </li>
+            </ul>
+        }
+    </div>
+</div>

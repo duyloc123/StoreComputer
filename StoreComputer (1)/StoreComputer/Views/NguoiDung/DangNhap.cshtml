@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewBag.Title = "Đăng Nhập";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<!-- from login -->
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="login">
+        <div class="login__container" style=" max-width: 575px; height: 575px;">
+            <div class="text-center">
+                <h1 class="h4 text-gray-900 mb-4" style="font-size:1.5rem">Đăng Nhập</h1>
+            </div>
+            <form class="user">
+                <div class="form-group">
+                    <label>Tài khoản</label>
+                    <div>
+                        <input type="text" id="user" name="user" class="form-control" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Mật khẩu</label>
+                    <div>
+                        <input type="password" id="password" name="password" class="form-control" />
+                    </div>
+                </div>
+                <button type="submit" name="" value="Đăng ký" class="btn btn-block btn-success" style="height:50px;margin-top:30px">Đăng nhập</button>
+            </form>
+            <hr />
+            <div class="text-center">
+                <h6 class="m-0 font-weight-bold text-primary">
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-12 btn btn-dark">
+
+                            <a href="~/NguoiDung/dangKy" class="btn btn-block" style="color:white"> Tạo tài khoản!</a>
+                        </div>
+                </h6>
+            </div>
+        </div>
+    </div>
+}

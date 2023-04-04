@@ -1,0 +1,708 @@
+﻿@model List<StoreComputer.Models.HangHoa>
+@{
+    ViewBag.Title = "G Computer";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<div class="hero_area">
+    <!-- slider section -->
+    <section class=" slider_section position-relative">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="img-box">
+                                    <img src="~/Theme/images/2-7241.png" />
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="detail-box">
+                                    <h1>
+                                        BenQ ra mắt loạt màn hình mới <br>
+                                        <span>
+                                            Màn Hình EX3210U
+                                        </span>
+
+                                    </h1>
+                                    <p>
+                                        EX3210Uđược trang bị màn hình IPS 32 inch, độ phân giải 4K, tốc độ làm mới 144Hz, thời gian phản hồi 1ms,
+                                        gam màu 98% DCI-P3, chứng nhận HDR600 và chứng nhận AMD FreeSync Premium Pro.
+                                        Với chất lượng hình ảnh 4K UHD nguyên bản và thông lượng HDMI 2.1
+                                    </p>
+                                    <div>
+                                        <a href="~/LinhKien/DanhSachLinhKien">
+                                            Mua Hàng
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="img-box">
+                                    <img src="~/Theme/images/0412_ram-la-gi-1.jpg" alt="" />
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="detail-box">
+                                    <h1>
+                                        Linh Kiện Máy Tính <br>
+                                        <span>
+                                            RAM TridentZ RGB
+                                        </span>
+
+                                    </h1>
+                                    <p>
+                                        RAM G.Skill TRIDENT Z RGB 16GB (2x8GB) Bus 3200MHz (F4-3200C16D-16GTZR) với thanh ánh sáng sống động kết hợp cùng bộ tản nhiệt từng đoạt giải thưởng
+                                        được thiết kế và chế tạo bằng các thành phần chất lượng cao nhất cho hiệu suất vượt trội.
+                                    </p>
+                                    <div>
+                                        <a href="~/LinhKien/DanhSachLinhKien">
+                                            Mua Hàng
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="img-box">
+                                    <img src="~/Theme/images/ASUS-Gaming-ROG-Strix-G15-G513IH-HN015W.png" alt="" />
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="detail-box">
+                                    <h1>
+                                        Laptop Gaming <br>
+                                        <span>
+                                            ASUS ROG STRIX
+                                        </span>
+
+                                    </h1>
+                                    <p>
+                                        Chơi game tốc độ cao với màn hình đẳng cấp chuẩn eSport FHD lên đến 300Hz/3ms, hoặc chìm đắm trong từng chi tiết với tấm nền 2K 165Hz/3ms.
+                                        Công nghệ Adaptive-Sync cho tựa game siêu mượt, nâng cấp cho hệ thống tản nhiệt cao cấp giữ cho máy luôn mát mẻ.
+                                    </p>
+                                    <div>
+                                        <a href="~/Laptop/ChiTietLaptop?id=1">
+                                            Mua Hàng
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+
+    </section>
+    <!-- end slider section -->
+</div>
+
+<section class="feature_section  layout_padding">
+    <div class="container">
+        <div class="feature_container">
+            <div class="box">
+                <div class="img-box">
+                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                         x="0px" y="0px" viewBox="0 0 422.518 422.518" style="enable-background:new 0 0 422.518 422.518;"
+                         xml:space="preserve">
+                    <path d="M422.512,215.424c0-0.079-0.004-0.158-0.005-0.237c-0.116-5.295-4.368-9.514-9.727-9.514h-2.554l-39.443-76.258
+             c-1.664-3.22-4.983-5.225-8.647-5.226l-67.34-0.014l2.569-20.364c0.733-8.138-1.783-15.822-7.086-21.638
+             c-5.293-5.804-12.683-9.001-20.81-9.001h-209c-5.255,0-9.719,4.066-10.22,9.308l-2.095,16.778h119.078
+             c7.732,0,13.836,6.268,13.634,14c-0.203,7.732-6.635,14-14.367,14H126.78c0.007,0.02,0.014,0.04,0.021,0.059H10.163
+             c-5.468,0-10.017,4.432-10.16,9.9c-0.143,5.468,4.173,9.9,9.641,9.9H164.06c7.168,1.104,12.523,7.303,12.326,14.808
+             c-0.216,8.242-7.039,14.925-15.267,14.994H54.661c-5.523,0-10.117,4.477-10.262,10c-0.145,5.523,4.215,10,9.738,10h105.204
+             c7.273,1.013,12.735,7.262,12.537,14.84c-0.217,8.284-7.109,15-15.393,15H35.792v0.011H25.651c-5.523,0-10.117,4.477-10.262,10
+             c-0.145,5.523,4.214,10,9.738,10h8.752l-3.423,35.818c-0.734,8.137,1.782,15.821,7.086,21.637c5.292,5.805,12.683,9.001,20.81,9.001
+             h7.55C69.5,333.8,87.3,349.345,109.073,349.345c21.773,0,40.387-15.545,45.06-36.118h94.219c7.618,0,14.83-2.913,20.486-7.682
+             c5.172,4.964,12.028,7.682,19.514,7.682h1.55c3.597,20.573,21.397,36.118,43.171,36.118c21.773,0,40.387-15.545,45.06-36.118h6.219
+             c16.201,0,30.569-13.171,32.029-29.36l6.094-67.506c0.008-0.091,0.004-0.181,0.01-0.273c0.01-0.139,0.029-0.275,0.033-0.415
+             C422.52,215.589,422.512,215.508,422.512,215.424z M109.597,329.345c-13.785,0-24.707-11.214-24.346-24.999
+             c0.361-13.786,11.87-25.001,25.655-25.001c13.785,0,24.706,11.215,24.345,25.001C134.89,318.131,123.382,329.345,109.597,329.345z
+              M333.597,329.345c-13.785,0-24.706-11.214-24.346-24.999c0.361-13.786,11.87-25.001,25.655-25.001
+             c13.785,0,24.707,11.215,24.345,25.001C358.89,318.131,347.382,329.345,333.597,329.345z M396.457,282.588
+             c-0.52,5.767-5.823,10.639-11.58,10.639h-6.727c-4.454-19.453-21.744-33.882-42.721-33.882c-20.977,0-39.022,14.429-44.494,33.882
+             h-2.059c-2.542,0-4.81-0.953-6.389-2.685c-1.589-1.742-2.337-4.113-2.106-6.676l12.609-139.691l28.959,0.006l-4.59,50.852
+             c-0.735,8.137,1.78,15.821,7.083,21.637c5.292,5.806,12.685,9.004,20.813,9.004h56.338L396.457,282.588z" />
+                    <g>
+              </g>
+                    <g>
+              </g>
+                    <g>
+              </g>
+                    <g>
+              </g>
+                    <g>
+              </g>
+                    <g>
+              </g>
+                    <g>
+              </g>
+                    <g>
+              </g>
+                    <g>
+              </g>
+                    <g>
+              </g>
+                    <g>
+              </g>
+                    <g>
+              </g>
+                    <g>
+              </g>
+                    <g>
+              </g>
+                    <g>
+              </g>
+            </svg>
+                </div>
+                <div class="detail-box">
+                    <h5>
+                        Giao Hàng Nhanh
+                    </h5>
+                    <p>
+                        Tận tâm phục vụ khách hàng , giao hàng nhanh chóng và tiện lợi.
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img-box">
+                    <svg id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="m471.728 84.718h-431.456c-22.206 0-40.272 18.066-40.272 40.272v243.623 18.395.005c0 22.205 18.064 40.27 40.27 40.27h431.46c22.205 0 40.27-18.065 40.27-40.27v-.005-18.395-243.623c0-22.206-18.066-40.272-40.272-40.272zm-431.456 20h431.455c11.179 0 20.272 9.094 20.272 20.272v233.623h-294.622c-5.522 0-10 4.477-10 10s4.478 10 10 10h294.623v8.395c0 11.178-9.094 20.272-20.272 20.272h-431.456c-11.178 0-20.272-9.094-20.272-20.273v-8.395h89.418c5.522 0 10-4.477 10-10s-4.478-10-10-10h-89.418v-233.622c0-11.178 9.094-20.272 20.272-20.272z" />
+                        <path d="m280.063 167.544h53.989c5.522 0 10-4.477 10-10s-4.478-10-10-10h-53.989c-5.522 0-10 4.477-10 10s4.477 10 10 10z" />
+                        <path d="m377.55 167.544h55.505c5.522 0 10-4.477 10-10s-4.478-10-10-10h-55.505c-5.522 0-10 4.477-10 10s4.477 10 10 10z" />
+                        <path d="m280.063 210.314h152.992c5.522 0 10-4.477 10-10s-4.478-10-10-10h-152.992c-5.522 0-10 4.477-10 10s4.477 10 10 10z" />
+                        <path d="m280.063 254.169h45.989c5.522 0 10-4.477 10-10s-4.478-10-10-10h-45.989c-5.522 0-10 4.477-10 10s4.477 10 10 10z" />
+                        <path d="m422.75 234.169h-38.993c-13.348 0-24.207 10.859-24.207 24.207v37.636c0 13.348 10.859 24.208 24.207 24.208h38.993c13.348 0 24.207-10.859 24.207-24.208v-37.636c0-13.348-10.859-24.207-24.207-24.207zm4.207 61.843c0 2.32-1.888 4.208-4.207 4.208h-38.993c-2.319 0-4.207-1.888-4.207-4.208v-37.636c0-2.32 1.888-4.207 4.207-4.207h38.993c2.319 0 4.207 1.887 4.207 4.207z" />
+                        <path d="m280.063 298.297h45.989c5.522 0 10-4.477 10-10s-4.478-10-10-10h-45.989c-5.522 0-10 4.477-10 10s4.477 10 10 10z" />
+                        <path d="m79.072 319.081h140.993c5.522 0 10-4.477 10-10v-39.955-114.582c0-5.523-4.478-10-10-10h-140.993c-5.522 0-10 4.477-10 10v114.583 39.955c0 5.522 4.478 9.999 10 9.999zm130.993-20h-120.993v-28.724c.03-.113.06-.227.091-.339 4.169-15.41 18.521-26.172 34.902-26.172h51.008c16.38 0 30.732 10.763 34.902 26.169.03.113.061.226.09.339zm-81.794-96.534c0-11.744 9.554-21.298 21.298-21.298s21.298 9.554 21.298 21.298-9.554 21.298-21.298 21.298-21.298-9.554-21.298-21.298zm81.794 33.371c-7.335-5.755-16.118-9.714-25.618-11.298 4.058-6.39 6.42-13.958 6.42-22.073 0-17.041-10.376-31.702-25.14-38.003h44.339v71.374zm-76.653-71.374c-14.765 6.301-25.14 20.963-25.14 38.003 0 8.114 2.362 15.683 6.42 22.073-9.501 1.583-18.285 5.543-25.619 11.298v-71.374z" />
+                        <path d="m159.66 360.3c-7.549-5.03-17.605 2.261-15.18 10.977 1.142 4.104 4.876 7.118 9.141 7.321 4.271.204 8.264-2.408 9.808-6.389 1.66-4.282.096-9.38-3.769-11.909z" />
+                    </svg>
+                </div>
+                <div class="detail-box">
+                    <h5>
+                        Giấy Phép Kinh Doanh
+                    </h5>
+                    <p>
+                        Có chứng nhận giấy phép kinh doanh buôn bán linh kiện máy tính và laptop.
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img-box">
+                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                         x="0px" y="0px" viewBox="0 0 315.377 315.377" style="enable-background:new 0 0 315.377 315.377;"
+                         xml:space="preserve">
+                    <g>
+                    <g>
+                    <path d="M107.712,181.769l-7.938,7.705c-1.121,1.089-1.753,2.584-1.753,4.146v3.288c0,3.191,2.588,5.779,5.78,5.779h47.4
+                 c3.196,0,5.782-2.588,5.782-5.779v-4.256c0-3.191-2.586-5.78-5.782-5.78h-26.19l0.722-0.664
+                 c17.117-16.491,29.232-29.471,29.232-46.372c0-13.513-8.782-27.148-28.409-27.148c-8.568,0-16.959,2.75-23.629,7.74
+                 c-2.166,1.625-2.918,4.537-1.803,7.007l1.458,3.224c0.708,1.568,2.074,2.739,3.735,3.195c1.651,0.456,3.433,0.148,4.842-0.836
+                 c4.289-2.995,8.704-4.515,13.127-4.515c8.608,0,12.971,4.28,12.971,12.662C137.142,152.524,127.72,162.721,107.712,181.769z" />
+                </g>
+                    <g>
+                    <path d="M194.107,114.096c-0.154-0.014-0.31-0.02-0.464-0.02h-1.765c-1.89,0-3.658,0.923-4.738,2.469l-35.4,50.66
+                 c-0.678,0.971-1.041,2.127-1.041,3.311v4.061c0,3.192,2.586,5.78,5.778,5.78h32.322v16.551c0,3.191,2.586,5.779,5.778,5.779h5.519
+                 c3.19,0,5.781-2.588,5.781-5.779v-16.551h5.698c3.192,0,5.781-2.588,5.781-5.78v-3.753c0-3.19-2.589-5.779-5.781-5.779h-5.698
+                 v-45.189c0-3.19-2.591-5.779-5.781-5.779h-5.519C194.419,114.077,194.261,114.083,194.107,114.096z M188.799,165.045h-17.453
+                 c4.434-6.438,12.015-17.487,17.453-25.653V165.045z" />
+                </g>
+                    <g>
+                    <path d="M157.906,290.377c-68.023,0-123.365-55.342-123.365-123.365c0-64.412,49.625-117.443,112.647-122.895v19.665
+                 c0,1.397,0.771,2.681,2.003,3.337c0.558,0.298,1.169,0.444,1.778,0.444c0.737,0,1.474-0.216,2.108-0.643l44.652-30
+                 c1.046-0.702,1.673-1.879,1.673-3.139c0-1.259-0.627-2.437-1.673-3.139l-44.652-30c-1.159-0.779-2.654-0.857-3.887-0.198
+                 c-1.232,0.657-2.003,1.941-2.003,3.337v15.254C70.364,24.547,9.54,88.806,9.54,167.011c0,81.809,66.558,148.365,148.365,148.365
+                 c37.876,0,73.934-14.271,101.532-40.183l-17.111-18.226C219.38,278.512,189.4,290.377,157.906,290.377z" />
+                </g>
+                    <g>
+                    <path d="M284.552,89.689c-5.111-8.359-11.088-16.252-17.759-23.456l-18.344,16.985c5.552,5.995,10.522,12.562,14.776,19.515
+                 L284.552,89.689z" />
+                </g>
+                    <g>
+                    <path d="M280.146,150.258l24.773-3.363c-1.322-9.74-3.625-19.373-6.846-28.632l-23.612,8.211
+                 C277.135,134.163,279.047,142.165,280.146,150.258z" />
+                </g>
+                    <g>
+                    <path d="M242.999,45.459c-8.045-5.643-16.678-10.496-25.66-14.427l-10.022,22.903c7.464,3.267,14.64,7.301,21.327,11.991
+                 L242.999,45.459z" />
+                </g>
+                    <g>
+                    <path d="M253.208,245.353l19.303,15.887c6.244-7.587,11.75-15.817,16.363-24.462l-22.055-11.771
+                 C262.983,232.195,258.404,239.041,253.208,245.353z" />
+                </g>
+                    <g>
+                    <path d="M280.908,176.552c-0.622,8.157-2.061,16.264-4.273,24.093l24.057,6.802c2.666-9.426,4.396-19.18,5.146-28.99
+                 L280.908,176.552z" />
+                </g>
+              </g>
+                    <g>
+              </g>
+                    <g>
+              </g>
+                    <g>
+              </g>
+                    <g>
+              </g>
+                    <g>
+              </g>
+                    <g>
+              </g>
+                    <g>
+              </g>
+                    <g>
+              </g>
+                    <g>
+              </g>
+                    <g>
+              </g>
+                    <g>
+              </g>
+                    <g>
+              </g>
+                    <g>
+              </g>
+                    <g>
+              </g>
+                    <g>
+              </g>
+            </svg>
+
+                </div>
+                <div class="detail-box">
+                    <h5>
+                        Hỗ Trợ Bảo Hành
+                    </h5>
+                    <p>
+                        Hỗ trợ bảo hành sản phẩm và đổi hàng mới khi hàng bị lỗi từ phía nhà sản xuất.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- end feature section -->
+<!-- discount section -->
+
+<section class="discount_section">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3 col-md-5 offset-md-2">
+                <div class="detail-box">
+                    <h2>
+                        Giảm giá <br />
+                        Các sản phẩm<br />
+                        On
+                        <span>
+                            10% discount
+                        </span>
+
+                    </h2>
+                    <p>
+                        Giảm giá tất cả các sản phầm khi là khách hàng mua hàng lần đầu của cửa hàng.
+                    </p>
+                    <div>
+                        <a href="LinhKien">
+                            Buy Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-5">
+                <div class="img-box">
+                    <img src="~/Theme/images/photo-1658673609646-9c7ba9514b89.png" alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- end discount section -->
+<!-- health section -->
+
+<section class="health_section layout_padding">
+    <div class="health_carousel-container">
+        <h2 class="text-uppercase">
+            Linh Kiện Máy Tính
+
+        </h2>
+        <div class="carousel-wrap layout_padding2">
+            <div class="owl-carousel">
+                @foreach (var item in Model)
+                {
+                    <div class="item">
+                        <div class="box">
+                            <div class="img-box">
+                                <img src="~/@item.hinhAnh" height="250px" width="250px" alt="">
+                                <a href="" class="order-now">Xem Thêm</a>
+                            </div>
+                            <div class="text" style="padding-top:10px;text-align:center;text-transform:uppercase;font-size:15px">
+                                <h6 style="margin-bottom:5px">
+                                    @item.tenHang
+                                </h6>
+                            </div>
+                            <div class="detail-box">
+                                <div class="star_container" style="margin-bottom:15px">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                </div>
+                                <div class="text">
+                                    <h6 class="price">
+                                        @String.Format("{0:#,##0}", item.giaMoi)
+                                        <span>
+                                            VNĐ
+                                        </span>
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+    <div class="d-flex justify-content-center">
+        <a href="~/LinhKien/DanhSachLinhKien?id!=1">
+            Xem Thêm
+        </a>
+    </div>
+    <div class="health_carousel-container">
+        <h2 class="text-uppercase">
+            Laptop
+
+        </h2>
+        <div class="carousel-wrap layout_padding2">
+            <div class="owl-carousel">
+                @foreach (var item in Model)
+                {
+                    <div class="item">
+                        <div class="box">
+                            <div class="img-box">
+                                <img src="~/@item.hinhAnh" height="250px" width="250px" alt="">
+                                <a href="" class="order-now">Xem Thêm</a>
+                            </div>
+                            <div class="text" style="padding-top:10px;text-align:center;text-transform:uppercase;font-size:15px">
+                                <h6 style="margin-bottom:5px">
+                                    @item.tenHang
+                                </h6>
+                            </div>
+                            <div class="detail-box">
+                                <div class="star_container" style="margin-bottom:15px">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                </div>
+                                <div class="text">
+                                    <h6 class="price">
+                                        @String.Format("{0:#,##0}", item.giaMoi)
+                                        <span>
+                                            VNĐ
+                                        </span>
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+    <div class="d-flex justify-content-center">
+        <a href="~/Laptop/DanhSachLaptop?id=1">
+            Xem Thêm
+        </a>
+    </div>
+</section>
+
+<!-- end health section -->
+<!-- about section -->
+<section class="about_section layout_padding">
+    <div class="container">
+        <div class="custom_heading-container ">
+            <h2>
+                Giới Thiệu
+            </h2>
+        </div>
+
+        <div class="img-box">
+            <img src="~/Theme/images/zyro-image.png" alt="" style="width:279px;height:290px" />
+        </div>
+        <div class="detail-box">
+            <p>
+                Chúng tôi chuyên cung cấp những sản phẩm linh kiện máy tính và laptop gaming. Chúng tôi luôn đặt chất lượng của sản phầm và
+                khách hàng lên hàng đầu. Với nhiều ưu đãi và đội ngũ bán hàng chuyên nghiệp. Chúng tôi mong sẽ đem đến sự hài lòng đến vói khách hàng
+                khi mua hàng của chúng tôi.
+            </p>
+            <div class="d-flex justify-content-center">
+                <a href="GioiThieu">
+                    Đọc Thêm
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- end about section -->
+<!-- client section -->
+<section class="client_section layout_padding">
+    <div class="container">
+        <div class="custom_heading-container ">
+            <h2>
+                Giới Thiệu
+            </h2>
+        </div>
+        <div id="carouselExample2Indicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExample2Indicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExample2Indicators" data-slide-to="1"></li>
+                <li data-target="#carouselExample2Indicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="client_container layout_padding2">
+                        <div class="client_detail">
+                            <p>
+                                Sản phẩm tốt chất lượng , nhân viên nhiệt tình , dịch vụ tốt sẽ ủng hộ lâu dài.
+                            </p>
+                        </div>
+                        <div class="client_box ">
+                            <div class="img-box">
+                                <img src="~/Theme/images/icon-256x256.png" alt="" />
+                            </div>
+                            <div class="name">
+                                <h5>
+                                    Anh An
+                                </h5>
+                                <h6>
+                                    <span>
+                                        Khách Hàng
+                                    </span>
+                                    <img src="images/quote.png" alt="">
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="client_container layout_padding2">
+                        <div class="client_detail">
+                            <p>
+                                Ưu đãi tốt , dịch vụ bảo hành rất nhanh , thái độ nhân viên rất nhiệt tình.
+                            </p>
+                        </div>
+                        <div class="client_box ">
+                            <div class="img-box">
+                                <img src="~/Theme/images/163-1636340-user-avatar-icon-avatar-transparent-user-icon-png.png" alt="" style="width:257px;height:257px" />
+                            </div>
+                            <div class="name">
+                                <h5>
+                                    Chị Phương
+                                </h5>
+                                <h6>
+                                    <span>
+                                        Khách Hàng
+                                    </span>
+                                    <img src="images/quote.png" alt="">
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="client_container layout_padding2">
+                        <div class="client_detail">
+                            <p>
+                                Shop rất nhiệt tình trong việc tư vấn sản phẩm , giao hàng nhanh , mới đặt mà đã có hàng.
+                            </p>
+                        </div>
+                        <div class="client_box ">
+                            <div class="img-box">
+                                <img src="~/Theme/images/icon-256x256.png" alt="" />
+                            </div>
+                            <div class="name">
+                                <h5>
+                                    Anh Chánh
+                                </h5>
+                                <h6>
+                                    <span>
+                                        Khách Hàng
+                                    </span>
+                                    <img src="images/quote.png" alt="">
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+
+<!-- contact section -->
+<section class="contact_section layout_padding">
+    <div class="container">
+        <div class="row">
+            <div class="custom_heading-container ">
+                <h2>
+                    Yêu Cầu Tư Vấn
+                </h2>
+            </div>
+        </div>
+    </div>
+    <div class="container layout_padding2">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="form_contaier">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputName1">Tên</label>
+                            <input type="text" class="form-control" id="exampleInputName1">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputNumber1">Số Điện Thoại</label>
+                            <input type="text" class="form-control" id="exampleInputNumber1">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email </label>
+                            <input type="email" class="form-control" id="exampleInputEmail1">
+                        </div>
+                        <div class="form-group ">
+                            <label for="inputState">Select medicine</label>
+                            <select id="inputState" class="form-control">
+                                <option selected>Hỗ trợ bảo hành</option>
+                                <option selected>Tư vấn sản phẩm</option>
+                                <option selected>Yêu cầu hỗ trợ</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputMessage">Message</label>
+                            <input type="text" class="form-control" id="exampleInputMessage">
+                        </div>
+                        <button type="submit" class="">Gửi</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div class="detail-box">
+                    <h3>
+                        Tư Vấn Khách Hàng
+                    </h3>
+                    <p>
+                        Chúng tôi luôn hỗ trợ khách hàng 24/7 sẵn sàng tiếp nhận những góp ý của khách hàng và cải thiện hơn.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- end contact section -->
+<!-- info section -->
+<section class="info_section layout_padding2">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="info_contact">
+                    <h4>
+                        Thông Tin Liên Hệ
+                    </h4>
+                    <div class="box">
+                        <div class="img-box">
+                            <img src="~/Theme/images/telephone-symbol-button.png" alt="">
+                        </div>
+                        <div class="detail-box">
+                            <h6>
+                                +84 8388445
+                            </h6>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="img-box">
+                            <img src="~/Theme/images/email.png" alt="">
+                        </div>
+                        <div class="detail-box">
+                            <h6>
+                                loc123456000@gmail.com
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="info_menu">
+                    <h4>
+                        Danh Sách
+                    </h4>
+                    <ul class="navbar-nav  ">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="Index">Trang Chủ <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="GioiThieu"> Giới Thiệu </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="MayTinh"> Laptop </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="LinhKien"> Linh Kiện Máy Tính </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="info_news">
+                    <h4>
+                        tin tức
+                    </h4>
+                    <form action="">
+                        <input type="text" placeholder="Enter Your email">
+                        <div class="d-flex justify-content-center justify-content-end mt-3">
+                            <button>
+                                Subscribe
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- end info section -->

@@ -1,0 +1,223 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <!-- slider stylesheet -->
+    <link rel="stylesheet" type="text/css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+
+    <!-- font awesome style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="~/Theme/css/bootstrap.css" />
+
+    <!-- fonts style -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700|Roboto:400,700&display=swap" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="~/Theme/css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="~/Theme/css/responsive.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- header section strats -->
+    <header class="header_section">
+        <div class="container">
+            <div class="top_contact-container">
+                <div class="tel_container">
+                    <a href="">
+                        <img src="~/Theme/images/telephone-symbol-button.png" alt=""> Số Điện Thoai: +84 8388445
+                    </a>
+                </div>
+                <div class="social-container">
+                    <a href="">
+                        <img src="~/Theme/images/fb.png" alt="" class="s-1">
+                    </a>
+                    <a href="">
+                        <img src="~/Theme/images/twitter.png" alt="" class="s-2">
+                    </a>
+                    <a href="">
+                        <img src="~/Theme/images/instagram.png" alt="" class="s-3">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
+                <a class="navbar-brand" href="~/Home/TrangChu">
+                    <img src="~/Theme/images/zyro-image.png" alt="">
+                    <span>
+                        Computer
+                    </span>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="d-flex  flex-column flex-lg-row align-items-center w-100 justify-content-between">
+                        <ul class="navbar-nav  ">
+                            <li class="nav-item ">
+                                <a class="nav-link" href="~/Home/TrangChu">Trang Chủ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="~/Home/GioiThieu">Giới Thiệu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="~/Laptop/DanhSachLaptop">Laptop</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="~/LinhKien/DanhSachLinhKien"> Linh Kiện Máy Tính </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="~/Home/ThongTinLienHe">Thông Tin Liên Hệ</a>
+                            </li>
+                        </ul>
+
+                        <form action="~/Laptop/TimKiemLaptop" class="form-inline ">
+                            <input type="text" name="search" placeholder="Tìm Kiếm Sản Phẩm" />
+                            <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit" value="Tìm Kiếm"></button>
+                        </form>
+                        <div class="login_btn-contanier ml-0 ml-lg-5">
+                            <div class="number" id="check-items" style="margin-left: 14px; margin-top: -6px; background: #ea1c00; color: #fff; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; width: 18px; height: 18px; text-align: center; font-size: 9px; position: absolute; line-height: 18px;">0</div>
+                            <a href="~/ShoppingCart/Index">
+                                <img src="https://theme.hstatic.net/1000026716/1000440777/14/ak5.png?v=35362" alt="" style="width:27px;height:21px" />
+                                <span>
+                                    Giỏ Hàng
+                                </span>
+                            </a>
+                        </div>
+                        @if (Session["taiKhoan"] != null)
+                        {
+                            <div class="login_btn-contanier ml-0 ml-lg-5" id="userDropdown" role="button"
+                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <a href="#">
+                                    <img src="~/Theme/images/user.png" alt="" style="width:20px;height:20px">
+                                    <span>
+                                        @Session["taiKhoan"]
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                 aria-labelledby="userDropdown">
+                                <a class="dropdown-item" href="~/NguoiDung/Thoat">
+                                    Thoát
+                                </a>
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="login_btn-contanier ml-0 ml-lg-5" id="userDropdown" role="button"
+                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <a href="#">
+                                    <img src="~/Theme/images/user.png" alt="" style="width:20px;height:20px">
+                                    <span>
+                                        Người dùng
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                 aria-labelledby="userDropdown">
+                                <a class="dropdown-item" href="~/NguoiDung/DangNhap">
+                                    Đăng nhập
+                                </a>
+                            </div>
+                        }
+                    </div>
+                </div>
+
+            </nav>
+        </div>
+    </header>
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Đăng xuất</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">Bạn có chắc muốn đăng xuất tài khoản!</div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Hủy</button>
+                    <a class="btn btn-primary" href="~/NguoiDung/DangNhap">Thoát</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end header section -->
+
+    <div>
+        @RenderBody()
+    </div>
+    <!-- footer section -->
+    <section class="container-fluid footer_section">
+        <p>
+            &copy; 2019 All Rights Reserved. Design by
+            <a href="https://html.design/">Free Html Templates</a>
+        </p>
+    </section>
+    <!-- footer section -->
+    <script type="text/javascript" src="~/Theme/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="~/Theme/js/bootstrap.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js">
+    </script>
+    <script type="text/javascript">
+        $(".owl-carousel").owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            navText: [],
+            autoplay: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 4
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript">
+        $(".owl-2").owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            navText: [],
+            autoplay: true,
+
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 4
+                }
+            }
+        });
+    </script>
+    <script src="~/Theme/js/jsShoppingcart.js"></script>
+</body>
+</html>

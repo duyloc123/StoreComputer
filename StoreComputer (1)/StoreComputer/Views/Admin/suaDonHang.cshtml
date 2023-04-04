@@ -1,0 +1,101 @@
+﻿@model StoreComputer.Models.DatHang
+
+@{
+    ViewBag.Title = "suaDonHang";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2 style="text-align:center">Sửa thông tin đơn hàng</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    @Html.HiddenFor(model => model.maHD)
+    <div class="form-group">
+        @Html.LabelFor(model => model.tenKhachHang, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.tenKhachHang, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.tenKhachHang, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.sdtKhachHang, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.sdtKhachHang, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.sdtKhachHang, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.diaChi, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.diaChi, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.diaChi, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.ghiChu, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.ghiChu, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.ghiChu, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.soLuong, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.soLuong, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.soLuong, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.tongTien, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.tongTien, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.tongTien, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-2">Hình thức thanh toán</label>
+        <div class="col-md-10">
+            <select class="form-control" name="ptThanhToan">
+                <option value="COD" selected>COD</option>
+                <option value="Chuyển khoản">Chuyển khoản</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-2">Tình trạng thanh toán</label>
+        <div class="col-md-10">
+            <select class="form-control" name="tinhtrangThanhToan">
+                <option value="Chưa thanh toán" selected>Chưa thanh toán</option>
+                <option value="Đã thanh toán">Đã thanh toán</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-2">Tình trạng thanh toán</label>
+        <div class="col-md-10">
+            <select class="form-control" name="tinhtrangDonHang">
+                <option value="Chưa giao hàng" selected>Chưa giao hàng</option>
+                <option value="Đã giao hàng">Đã giao hàng</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10" style="text-align:center">
+            <input type="submit" value="Lưu" class="btn btn-success" style="padding-left:50px;padding-right:50px" />
+        </div>
+    </div>
+</div>
+}
+<div class="card-body">
+    <a href="~/Admin/DonHang" class="btn btn-primary btn-icon-split">
+        <span class="icon text-white-50">
+        </span>
+        <span class="text">Trở về trang trước</span>
+    </a>
+</div>

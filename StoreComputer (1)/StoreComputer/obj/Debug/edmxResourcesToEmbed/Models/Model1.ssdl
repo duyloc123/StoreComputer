@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="StoreComputerModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ChiTietDatHang">
+    <Key>
+      <PropertyRef Name="maHD" />
+      <PropertyRef Name="maHang" />
+    </Key>
+    <Property Name="maHD" Type="int" Nullable="false" />
+    <Property Name="maHang" Type="int" Nullable="false" />
+    <Property Name="soLuong" Type="int" Nullable="false" />
+    <Property Name="thanhTien" Type="float" Nullable="false" />
+  </EntityType>
+  <EntityType Name="DatHang">
+    <Key>
+      <PropertyRef Name="maHD" />
+    </Key>
+    <Property Name="maHD" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="tenKhachHang" Type="nvarchar" MaxLength="30" />
+    <Property Name="sdtKhachHang" Type="nvarchar" MaxLength="13" />
+    <Property Name="diaChi" Type="nvarchar" MaxLength="50" />
+    <Property Name="ghiChu" Type="nvarchar" MaxLength="1000" />
+    <Property Name="soLuong" Type="int" />
+    <Property Name="tongTien" Type="float" />
+    <Property Name="ptThanhToan" Type="nvarchar" MaxLength="50" />
+    <Property Name="tinhtrangThanhToan" Type="nvarchar" MaxLength="50" />
+    <Property Name="tinhtrangDonHang" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="HangHoa">
+    <Key>
+      <PropertyRef Name="maHang" />
+    </Key>
+    <Property Name="maHang" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="maLoai" Type="int" Nullable="false" />
+    <Property Name="maNCC" Type="int" Nullable="false" />
+    <Property Name="tenHang" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="ngayNhap" Type="date" Nullable="false" />
+    <Property Name="giaMoi" Type="float" Nullable="false" />
+    <Property Name="giaCu" Type="float" Nullable="false" />
+    <Property Name="soLuong" Type="int" Nullable="false" />
+    <Property Name="hinhAnh" Type="nvarchar" MaxLength="1000" />
+    <Property Name="moTa" Type="nvarchar" MaxLength="2000" Nullable="false" />
+    <Property Name="maTaChiTiet" Type="nvarchar" MaxLength="4000" Nullable="false" />
+    <Property Name="giamGia" Type="nvarchar" MaxLength="10" />
+    <Property Name="trangThaiSP" Type="nvarchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <EntityType Name="KhachHang">
+    <Key>
+      <PropertyRef Name="maKH" />
+    </Key>
+    <Property Name="maKH" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="tenKH" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="diaChi" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="soDienThoai" Type="nvarchar" MaxLength="13" Nullable="false" />
+    <Property Name="taiKhoan" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="matKhau" Type="nvarchar" MaxLength="1000" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="30" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LoaiHang">
+    <Key>
+      <PropertyRef Name="maLoai" />
+    </Key>
+    <Property Name="maLoai" Type="int" Nullable="false" />
+    <Property Name="tenLoai" Type="nvarchar" MaxLength="30" Nullable="false" />
+  </EntityType>
+  <EntityType Name="NhaCungCap">
+    <Key>
+      <PropertyRef Name="maNCC" />
+    </Key>
+    <Property Name="maNCC" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="tenNCC" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="diaChi" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="soDienThoai" Type="nvarchar" MaxLength="13" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TaiKhoan">
+    <Key>
+      <PropertyRef Name="TaiKhoan" />
+    </Key>
+    <Property Name="TaiKhoan" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="MatKhau" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="hoTen" Type="nvarchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_ChiTietDatHang_DatHang">
+    <End Role="DatHang" Type="Self.DatHang" Multiplicity="1" />
+    <End Role="ChiTietDatHang" Type="Self.ChiTietDatHang" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DatHang">
+        <PropertyRef Name="maHD" />
+      </Principal>
+      <Dependent Role="ChiTietDatHang">
+        <PropertyRef Name="maHD" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ChiTietDatHang_HangHoa">
+    <End Role="HangHoa" Type="Self.HangHoa" Multiplicity="1" />
+    <End Role="ChiTietDatHang" Type="Self.ChiTietDatHang" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HangHoa">
+        <PropertyRef Name="maHang" />
+      </Principal>
+      <Dependent Role="ChiTietDatHang">
+        <PropertyRef Name="maHang" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HangHoa_LoaiHang">
+    <End Role="LoaiHang" Type="Self.LoaiHang" Multiplicity="1" />
+    <End Role="HangHoa" Type="Self.HangHoa" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoaiHang">
+        <PropertyRef Name="maLoai" />
+      </Principal>
+      <Dependent Role="HangHoa">
+        <PropertyRef Name="maLoai" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HangHoa_NhaCungCap">
+    <End Role="NhaCungCap" Type="Self.NhaCungCap" Multiplicity="1" />
+    <End Role="HangHoa" Type="Self.HangHoa" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NhaCungCap">
+        <PropertyRef Name="maNCC" />
+      </Principal>
+      <Dependent Role="HangHoa">
+        <PropertyRef Name="maNCC" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="StoreComputerModelStoreContainer">
+    <EntitySet Name="ChiTietDatHang" EntityType="Self.ChiTietDatHang" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DatHang" EntityType="Self.DatHang" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HangHoa" EntityType="Self.HangHoa" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="KhachHang" EntityType="Self.KhachHang" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LoaiHang" EntityType="Self.LoaiHang" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NhaCungCap" EntityType="Self.NhaCungCap" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TaiKhoan" EntityType="Self.TaiKhoan" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_ChiTietDatHang_DatHang" Association="Self.FK_ChiTietDatHang_DatHang">
+      <End Role="DatHang" EntitySet="DatHang" />
+      <End Role="ChiTietDatHang" EntitySet="ChiTietDatHang" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ChiTietDatHang_HangHoa" Association="Self.FK_ChiTietDatHang_HangHoa">
+      <End Role="HangHoa" EntitySet="HangHoa" />
+      <End Role="ChiTietDatHang" EntitySet="ChiTietDatHang" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HangHoa_LoaiHang" Association="Self.FK_HangHoa_LoaiHang">
+      <End Role="LoaiHang" EntitySet="LoaiHang" />
+      <End Role="HangHoa" EntitySet="HangHoa" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HangHoa_NhaCungCap" Association="Self.FK_HangHoa_NhaCungCap">
+      <End Role="NhaCungCap" EntitySet="NhaCungCap" />
+      <End Role="HangHoa" EntitySet="HangHoa" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,34 @@
+﻿@model StoreComputer.Models.TaiKhoan
+
+@{
+    ViewBag.Title = "Đăng nhập";
+    Layout = "";
+}
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+<div>
+    <div class="login">
+        <div class="login__container" style=" max-width: 575px; height: 575px;margin-left:450px;margin-top:150px">
+            <div class="text-center">
+                <h1 class="h4 text-gray-900 mb-4" style="font-size:1.5rem">Đăng Nhập</h1>
+            </div>
+            <form class="user">
+                <div class="form-group">
+                    <label>Tài khoản</label>
+                    <div>
+                        <input type="text" id="user" name="user" class="form-control" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Mật khẩu</label>
+                    <div>
+                        <input type="password" id="password" name="password" class="form-control" />
+                    </div>
+                </div>
+                <button type="submit" name="" value="Đăng ký" class="btn btn-block btn-success" style="height:50px;margin-top:30px">Đăng nhập</button>
+            </form>
+        </div>
+    </div>
+</div>
+}

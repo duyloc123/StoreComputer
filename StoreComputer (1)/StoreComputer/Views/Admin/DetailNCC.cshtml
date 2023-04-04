@@ -1,0 +1,43 @@
+﻿@model StoreComputer.Models.NhaCungCap
+
+@{
+    ViewBag.Title = "DetailNCC";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2 style="text-align:center">Thông tin chi tiết nhà cung cấp</h2>
+
+<div>
+    <hr />
+    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Mã Nhà Cung Cấp</th>
+                <th>Tên Nhà Cung Cấp</th>
+                <th>Địa Chỉ</th>
+                <th>Số Điện Thoai</th>
+            </tr>
+        </thead>
+            <tbody>
+                <tr>
+                    <td>@Html.DisplayFor(model =>model.maNCC)</td>
+                    <td>@Html.DisplayFor(model => model.tenNCC)</td>
+                    <td>@Html.DisplayFor(model => model.diaChi)</td>
+                    <td>@Html.DisplayFor(model => model.soDienThoai)</td>
+                </tr>
+            </tbody>
+    </table>
+</div>
+<h6 class="m-0 font-weight-bold text-primary">
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <a href="~/Admin/editNCC?id=@Model.maNCC" class="btn btn-success"> Sửa</a>
+        </div>
+</h6>
+<div class="card-body">
+    <a href="~/Admin/DanhSachNhaCungCap" class="btn btn-primary btn-icon-split">
+        <span class="icon text-white-50">
+        </span>
+        <span class="text">Trở về trang trước</span>
+    </a>
+</div>

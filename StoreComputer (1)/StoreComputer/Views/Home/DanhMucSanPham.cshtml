@@ -1,0 +1,10 @@
+﻿@model List<StoreComputer.Models.HangHoa>
+@{
+    ViewBag.Title = "DanhMucSanPham";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+@foreach(var item in Model)
+            {
+                <h1>@item.maHang</h1>
+            }
+
